@@ -70,10 +70,10 @@ function verifyJWT(req, res, next){
       app.get('/reviews', verifyJWT, async (req, res) => {
             
         const decoded = req.decoded;
-        if(decoded.email !== req.query.email)
-        {
-           res.status(403).send({message: 'unauthorized access'})
-        }
+        // if(decoded.email !== req.query.email)
+        // {
+        //    res.status(403).send({message: 'unauthorized access'})
+        // }
         let query = {};
 
         if(req.query.email)
