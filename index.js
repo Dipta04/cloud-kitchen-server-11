@@ -38,6 +38,7 @@ function verifyJWT(req, res, next){
     try{
         const serviceCollection = client.db('kitchen').collection('services');
         const reviewCollection = client.db('kitchen').collection('reviews');
+        const newserviceCollection = client.db('kitchen').collection('newservices');
 
         app.post('/jwt', (req, res) =>{
             const user = req.body;
@@ -113,6 +114,27 @@ function verifyJWT(req, res, next){
     const result = await reviewCollection.deleteOne(query);
     res.send(result);
     })
+
+
+    app.get('/newservices', verifyJWT, async (req, res) => {
+      let query = {};
+      // if(req.query.email)
+      // {
+      //   query = {
+      //      email: req.query.email
+      //   }
+      // }
+
+      const cursor = newserviceCollection.find(query);
+      const newservices = await cursor.toArray();
+      res.send(newservices);
+  });
+  app.post('/newservices', verifyJWT, async(req, res) =>{
+    const  newservice= req.body;
+    const result = await newserviceCollection.insertOne(newservice);
+    res.send(result);
+ })
+
 
     }
     finally{
