@@ -1,27 +1,6 @@
 [
-    {
-        "name": "Delicious Stake",
-        "image": "https://i.ibb.co/NnkP91B/stake.jpg",
-        "price": "20.00",
-        "description": "If you're in the mood for steak, you can head to a cloud kitchen for dinner and call it a night; however, these recipes prove that an impressive, restaurant-worthy steak is also very achievable at home. We've gathered some of our favorite steak recipes here, including Steak Au Poivre with Red Wine Pan Sauce (perfect for date night), Skirt Steak and Asparagus with Salsa de Semillas, and a Reverse Sear Steak that ensures even cooking with a deeply browned crust. Want to try your hand at steak tartare? I've got a recipe for that, too. Read on for even more recipes we love.",
-        "review":{
-            "name":"Henry",
-            "text":"Food is really good",
-             "img":"https://i.ibb.co/J5yT2YJ/player-1.png"
-        }
-    },
-    {
-       
-        "name": "Traditional Sushi",
-        "image": "https://i.ibb.co/m4TNHj8/sushi.jpg",
-        "price": "20.00",
-        "description": "Sushi rolls, or makizushi in Japanese, are what most non-Japanese people think of when they think of sushi. Makizushi is made by wrapping up fillings in rice and nori seaweed. This recipe shows you how to make a basic makizushi roll, which can then be filled with whatever fillings you desire. Master the technique and get creative.",
-        "review":{
-            "name":"Henry",
-            "text":"Food is really good",
-             "img":"https://i.ibb.co/J5yT2YJ/player-1.png"
-        }
-    },
+    
+   
     {
        
         "name": "Japanese Food",
