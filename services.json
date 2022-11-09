@@ -1,40 +1,9 @@
 [
     
    
-    {
-       
-        "name": "Japanese Food",
-        "image": "https://i.ibb.co/Y8YTnT6/japanese.jpg",
-        "price": "200.00",
-        "description": "Japanese cuisine encompasses the regional and traditional foods of Japan, which have developed through centuries of political, economic, and social changes. The traditional cuisine of Japan (Japanese: washoku) is based on rice with miso soup and other dishes; there is an emphasis on seasonal ingredients. Side dishes often consist of fish, pickled vegetables, and vegetables cooked in broth. Seafood is common, often grilled, but also served raw as sashimi or in sushi. Seafood and vegetables are also deep-fried in a light batter, as tempura. Apart from rice, a staple includes noodles, such as soba and udon. Japan also has many simmered dishes, such as fish products in broth called oden, or beef in sukiyaki and nikujaga.",
-        "review":{
-            "name":"Henry",
-            "text":"Food is really good",
-             "img":"https://i.ibb.co/J5yT2YJ/player-1.png"
-        }
-    },
-    {
-        "name": "Combo Platter",
-        "image": "https://i.ibb.co/8BpG5yS/platter.jpg",
-        "price": "150.00",
-        "description": "Veg/Non-Veg VEG NON-VEG Description Calling all burger lovers - get your fill of our nutritious and yet impossibly tasty mini-burger sliders! Chicken Burgers, Veg Burgers, pickles, masala fries, crinkled fries, ketchup, mustard, premium homemade dips. All orders come with a premium wooden board!Please try and order at least 1 day in advance. In case you want it sooner please do get in touch with us - I will try our best!",
-        "review":{
-            "name":"Henry",
-            "text":"Food is really good",
-             "img":"https://i.ibb.co/J5yT2YJ/player-1.png"
-        }
-    },
-    {
-        "name": "Ramen",
-        "image": "https://i.ibb.co/4gT1YzZ/ramen.jpg",
-        "price": "30.00",
-        "description": "Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth, one of a variety of types of noodle and a selection of meats or vegetables, often topped with a boiled egg. In Japan ramen is considered a fast food, with many small restaurants and street vendors offering a warming bowl of this delicious soup.",
-        "review":{
-            "name":"Henry",
-            "text":"Food is really good",
-             "img":"https://i.ibb.co/J5yT2YJ/player-1.png"
-        }
-    },
+  
+    
+    
     {
         
         "name": "Premium Berger",
