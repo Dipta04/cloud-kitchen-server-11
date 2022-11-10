@@ -24,10 +24,10 @@ function verifyJWT(req, res, next){
     const token = authHeader.split(' ')[1];
   
     jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, function(err, decoded){
-      if(err)
-      {
-        return res.status(403).send({message: 'Forbidden access'});
-      }
+      // if(err)
+      // {
+      //   return res.status(403).send({message: 'Forbidden access'});
+      // }
       req.decoded = decoded;
       next();
     })
@@ -71,10 +71,6 @@ function verifyJWT(req, res, next){
       app.get('/reviews', verifyJWT, async (req, res) => {
             
         const decoded = req.decoded;
-        // if(decoded.email !== req.query.email)
-        // {
-        //    res.status(403).send({message: 'unauthorized access'})
-        // }
         let query = {};
 
         if(req.query.email)
@@ -118,12 +114,6 @@ function verifyJWT(req, res, next){
 
     app.get('/newservices', verifyJWT, async (req, res) => {
       let query = {};
-      // if(req.query.email)
-      // {
-      //   query = {
-      //      email: req.query.email
-      //   }
-      // }
 
       const cursor = newserviceCollection.find(query);
       const newservices = await cursor.toArray();
